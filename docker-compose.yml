@@ -5,6 +5,8 @@ services:
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: password
+      POSTGRES_DB: rails_next_gemini_development
+      POSTGRES_HOST_AUTH_METHOD: trust
     ports:
       - "5432:5432"
     volumes:
@@ -17,6 +19,7 @@ services:
       DATABASE_HOST: db
       DATABASE_USER: postgres
       DATABASE_PASSWORD: password
+      DATABASE_NAME: rails_next_gemini_development
       GEMINI_API_KEY: "${GEMINI_API_KEY}"
       RAILS_MASTER_KEY: "${RAILS_MASTER_KEY}"
     ports:

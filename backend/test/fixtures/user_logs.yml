@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  user_id: MyString
+  action: MyString
+  path: MyString
+  timestamp: 2025-05-17 07:22:53
+  metadata: 
+
+two:
+  user_id: MyString
+  action: MyString
+  path: MyString
+  timestamp: 2025-05-17 07:22:53
+  metadata: 
